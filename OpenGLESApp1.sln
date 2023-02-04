@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{740547C8-F205-44CF-8284-0B59C7DD69BD}") = "OpenGLESApp1.iOS.Application", "OpenGLESApp1\OpenGLESApp1.iOS.Application\OpenGLESApp1.iOS.Application.xcodeproj\project.pbxproj", "{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{872E3EEE-AD71-4D3D-97F6-D6B23B7ECB7D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLESApp1.Shared", "OpenGLESApp1\OpenGLESApp1.Shared\OpenGLESApp1.Shared.vcxitems", "{2270BA56-3E56-4A81-AFC2-F35297BBE169}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLESApp1.iOS.StaticLibrary", "OpenGLESApp1\OpenGLESApp1.iOS.StaticLibrary\OpenGLESApp1.iOS.StaticLibrary.vcxproj", "{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|ARM.Build.0 = Debug|ARM
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|ARM.Deploy.0 = Debug|ARM
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|ARM64.Build.0 = Debug|ARM64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|x64.ActiveCfg = Debug|x64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|x64.Build.0 = Debug|x64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|x64.Deploy.0 = Debug|x64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|x86.ActiveCfg = Debug|x86
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|x86.Build.0 = Debug|x86
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Debug|x86.Deploy.0 = Debug|x86
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|ARM.ActiveCfg = Release|ARM
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|ARM.Build.0 = Release|ARM
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|ARM.Deploy.0 = Release|ARM
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|ARM64.ActiveCfg = Release|ARM64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|ARM64.Build.0 = Release|ARM64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|ARM64.Deploy.0 = Release|ARM64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|x64.ActiveCfg = Release|x64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|x64.Build.0 = Release|x64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|x64.Deploy.0 = Release|x64
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|x86.ActiveCfg = Release|x86
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|x86.Build.0 = Release|x86
+		{D1817018-EEBC-4F8E-B4EC-CCC3F9C4BA75}.Release|x86.Deploy.0 = Release|x86
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Debug|ARM.Build.0 = Debug|ARM
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Debug|ARM64.Build.0 = Debug|ARM64
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Debug|x64.ActiveCfg = Debug|x64
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Debug|x64.Build.0 = Debug|x64
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Debug|x86.ActiveCfg = Debug|x86
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Debug|x86.Build.0 = Debug|x86
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Release|ARM.ActiveCfg = Release|ARM
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Release|ARM.Build.0 = Release|ARM
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Release|ARM64.ActiveCfg = Release|ARM64
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Release|ARM64.Build.0 = Release|ARM64
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Release|x64.ActiveCfg = Release|x64
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Release|x64.Build.0 = Release|x64
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Release|x86.ActiveCfg = Release|x86
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2270BA56-3E56-4A81-AFC2-F35297BBE169} = {872E3EEE-AD71-4D3D-97F6-D6B23B7ECB7D}
+		{D3BECFC5-8133-4DAF-93D1-1EDBB3D2BDE0} = {872E3EEE-AD71-4D3D-97F6-D6B23B7ECB7D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD5F9808-BFEA-4C34-8A7C-AA16091E5575}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		OpenGLESApp1\OpenGLESApp1.Shared\OpenGLESApp1.Shared.vcxitems*{2270ba56-3e56-4a81-afc2-f35297bbe169}*SharedItemsImports = 9
+		OpenGLESApp1\OpenGLESApp1.Shared\OpenGLESApp1.Shared.vcxitems*{d3becfc5-8133-4daf-93d1-1edbb3d2bde0}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
